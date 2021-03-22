@@ -1,0 +1,52 @@
+<!DOCTYPE html>   <!-- subjectTable(assignment).html -->
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+      table, thead, tbody, tfoot, tr, th, td{border: 1px solid black; border-collapse: collapse;}
+      .subject1 { background-color:blue; } .subject2 {background-color:red;} .subject3 {background-color:green;}
+      .subject4 {background-color:yellow;} .subject5 {background-color:purple;} .subject6 {background-color: #CCEEFF;}
+    </style>
+    <title>HTML 시간표</title>
+  </head>
+    <body>
+    <table>
+      <caption>&lt;표&gt; 20192323이정빈 시간표</caption>
+      <thead>
+        <tr>
+          <th>시간</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1교시</td> <td></td> <td rowspan="2" class="subject1">자료구조및실습</td> <td class="subject2">운영체제</td> <td></td> <td></td>
+        </tr>
+        <tr>
+          <td>2교시</td> <td></td> <td></td> <td></td> <td></td>
+        </tr>
+        <tr>
+          <td>3교시</td> <td rowspan="2" class="subject3">디지털논리회로</td> <td></td> <td rowspan="2" class="subject1">자료구조및실습</td> <td></td> <td></td>
+        </tr>
+        <tr>
+          <td>4교시</td> <td></td> <td></td> <td></td>
+        </tr>
+        <tr>
+          <td>5교시</td> <td rowspan="2"class="subject4">이산수학</td> <td class="subject3">디지털논리회로</td> <td rowspan="4" class="subject6">C++프로그래밍</td> <td rowspan="2" class="subject5">인터넷응용</td> <td></td>
+        </tr>
+        <tr>
+          <td>6교시</td> <td class="subject4">이산수학</td> <td></td>
+        </tr>
+        <tr>
+          <td>7교시</td> <td></td> <td></td> <td>캠퍼스멘토링</td> <td></td>
+        </tr>
+        <tr>
+          <td>8교시</td> <td rowspan="2" class="subject2">운영체제</td> <td></td> <td></td> <td></td>
+        </tr>
+        <tr>
+          <td>9교시</td> <td class="subject5">인터넷응용</td> <td></td> <td></td> <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
